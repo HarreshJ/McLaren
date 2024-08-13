@@ -34,12 +34,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const timelineContainer = document.getElementById('timeline-container');
 
     const events = [
-        { year: '2010', event: 'Mercedes AMG Petronas F1 Team is formed.' },
-        { year: '2014', event: 'First Constructors\' Championship.' },
-        { year: '2015', event: 'Lewis Hamilton wins third World Championship.' },
-
-        { year: '2020', event: 'Lewis Hamilton wins record seventh World Championship.' },
-        // Add more events as needed
+        { year: '1963', event: 'Bruce McLaren founded McLaren' },
+        { year: '1966', event: 'The McLaren team enters F1' },
+        { year: '1974', event: "McLaren wins first Driver's and Constructor's championship with Emerson Fittipaldi" },
+        { year: '1988', event: "Aryton Senna joins McLaren also winning the Constructor's and Driver's championships" },
+        { year: '1990-1991', event: "Aryton Senna wins successive Driver's Championships with Mclaren" },
+        { year: '1998', event: "Yet another Constructor's Championship for McLaren and Mika Hakkinen wins the Driver's championship" },
+        { year: '1998', event: "Mika Hakkinen wins the Driver's championship again " },
+        { year: '2007', event: 'Lewis Hamilton joins McLaren in his rookie year' },
+        { year: '2008', event: "Lewis Hamilton wins the Driver's championship with McLaren" },
+        { year: '2019', event: 'Lando joins McLaren in his rookie year' },
+        { year: '2023', event: 'Oscar Piastri joins McLaren' },
+        { year: '2024', event: 'Lando Norris wins his first race in Miami' },
+        { year: '1998', event: 'Oscar Piastri wins his first race in Hungary' },
     ];
 
     events.forEach(event => {
